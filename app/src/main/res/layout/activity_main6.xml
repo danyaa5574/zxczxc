@@ -63,6 +63,65 @@
         android:text="В картах пациента будут храниться результаты анализов вас и ваших близких"
         android:textSize="15dp"
         android:translationY="-1.65sp" />
-    
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="375dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/ugly"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="375dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ugly"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="375dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ugly"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="375dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ugly"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <Spinner
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="375dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ugly"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="375dp"
+        android:backgroundTint="@color/blue"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Создать"/>
+
 
 </LinearLayout>

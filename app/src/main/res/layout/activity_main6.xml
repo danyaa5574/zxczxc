@@ -73,7 +73,7 @@
         android:background="@drawable/ugly"
         android:inputType="textPersonName"
         android:layout_marginTop="40dp"
-        android:text="Name" />
+        android:hint="Имя" />
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="375dp"
@@ -83,7 +83,7 @@
         android:ems="10"
         android:layout_marginTop="40dp"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Отчество" />
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="375dp"
@@ -93,7 +93,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Фамилия" />
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="375dp"
@@ -103,7 +103,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Дата рождения" />
     <Spinner
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="375dp"

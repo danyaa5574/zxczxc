@@ -7,9 +7,53 @@
     android:orientation="vertical"
     tools:context=".MainActivity7">
     <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="270dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="30dp"
+            android:text="каталог анализов"
+            android:textSize="20dp"></TextView>
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/myblue"
+                android:text="Популярные"
+                android:textSize="13dp"
+                android:textColor="@color/white"></Button>
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/myblue"
+                android:text="COVID"
+                android:textSize="13dp"
+                android:textColor="@color/white"></Button>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/myblue"
+                android:text="Комплексные"
+                android:textSize="13dp"
+                android:textColor="@color/white"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="350dp">
+        android:layout_height="300dp">
         <LinearLayout
             android:layout_width="350dp"
             android:layout_height="150dp"
@@ -19,6 +63,7 @@
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
                 android:text="ПЦР-тест на определение РНК коронавируса стандартный"
                 android:textSize="18dp"
                 ></TextView>
@@ -47,10 +92,12 @@
                     android:layout_width="120dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="100dp"
-                    android:background="@color/blue"
-                    android:text="добавить">
+                    android:background="@color/myblue"
+                    android:text="добавить"
+                    android:textColor="@color/white">
                 </Button>
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
     <LinearLayout

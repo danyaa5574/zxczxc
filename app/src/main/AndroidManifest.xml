@@ -11,33 +11,122 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity7"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity6"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity5"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity4"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".karta"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+        <activity
+            android:name=".delivery"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".download"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oplachen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".board1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+               />
+            </intent-filter>
+        </activity>  <activity
+        android:name=".board2"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+
+
+            />
+        </intent-filter>
+    </activity>  <activity
+        android:name=".smartlab"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            />
+        </intent-filter>
+    </activity>  <activity
+        android:name=".parol"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".katalog"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+    </activity>  <activity
+            android:name=".board3"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+    </activity>  <activity
+            android:name=".pageauthemail"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+    </activity>  <activity
+            android:name=".helloboard"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+    </activity>  <activity
+            android:name=".profile"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+
+
+    </activity>
+
     </application>
 
 </manifest>
